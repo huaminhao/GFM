@@ -9,4 +9,7 @@ convert:
 	cp README.md zht/README.md
 	node convert.js
 
-.PHONY: html init convert
+clean:
+	rm -rf html zhs
+
+.PHONY: clean html init convert

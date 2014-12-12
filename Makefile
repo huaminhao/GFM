@@ -6,7 +6,7 @@ init:
 	cd zht && gitbook init
 
 convert:
-	node convert.js
 	cp README.md zht/README.md
+	node convert.js
 
 .PHONY: html init convert

@@ -3,7 +3,7 @@ html: convert
 	gitbook build . --output=./html
 
 init:
-	gitbook init
+	cd zht && gitbook init
 
 convert:
 	node convert.js

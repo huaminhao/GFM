@@ -19,10 +19,13 @@ recursiveDir('zht', function(err, files) {
         var target = getTarget(file);
         var targetDir = path.dirname(target);
         mkdirp(targetDir, function(err) {
-          numFinished++;
-          if (numFinished == files.length) {
-            console.log('Done');
-          }
+          fs.writeFile(target, converted, function(err) {
+            console.log(target);
+            numFinished++;
+            if (numFinished == files.length) {
+              console.log('Done');
+            }
+          });
         });
       });
     });

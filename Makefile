@@ -1,8 +1,11 @@
-html:
+html: convert
 	mkdir -p html
 	gitbook build . --output=./html
 
 init:
 	gitbook init
 
-.PHONY: html init
+convert:
+	node convert.js
+
+.PHONY: html init convert

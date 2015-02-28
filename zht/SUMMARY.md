@@ -26,3 +26,8 @@
   * [中國股票市場特色分析](chap5/section2.md)
   * [中國金融市場未來機遇](chap5/section3.md)
 * [附錄](appendix/README.md)
+  * [專業詞彙中英文對照表](appendix/section1.md)
+  * [中國重要經濟資料公佈日程表](appendix/section2.md)
+  * [國外重要經濟資料公佈日程表](appendix/section3.md)  
+  * [金融衍生品種簡介](appendix/section1.md)
+  * [擴展閱讀篇目](appendix/section2.md)

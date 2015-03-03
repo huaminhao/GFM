@@ -29,5 +29,5 @@
   * [專業詞彙中英文對照表](appendix/section1.md)
   * [中國重要經濟資料公佈日程表](appendix/section2.md)
   * [國外重要經濟資料公佈日程表](appendix/section3.md)  
-  * [金融衍生品種簡介](appendix/section1.md)
-  * [擴展閱讀篇目](appendix/section2.md)
+  * [金融衍生品種簡介](appendix/section4.md)
+  * [擴展閱讀篇目](appendix/section5.md)
